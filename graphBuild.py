@@ -1,4 +1,8 @@
 import random
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
 
 def buildNetwork(N, linkCapacityR1, linkCapacityR2, resCapacityR1, resCapacityR2):
     adjMat = [[0 for x in range(N)] for y in range(N)]
@@ -40,7 +44,5 @@ def generateSolutionComponents(SN, VN, RD):
     
     return GD
 
-
-
-
-
+def plotMetrics(metrics):
+    return True
